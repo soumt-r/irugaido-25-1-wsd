@@ -1,0 +1,224 @@
+{
+  "vocabulary": [
+    {
+      "id": "vocab001",
+      "jp": "居酒屋",
+      "kr": "이자카야(일본식 술집)",
+      "romaji": "izakaya",
+      "example": "この居酒屋は美味しいです",
+      "exampleKr": "이 이자카야는 맛있습니다",
+      "category": "장소",
+      "tags": ["음식", "술집", "장소"],
+      "relatedPhraseIds": ["phrase001", "phrase003"]
+    },
+    {
+      "id": "vocab002",
+      "jp": "ビール",
+      "kr": "맥주",
+      "romaji": "biiru",
+      "example": "ビールを一杯ください",
+      "exampleKr": "맥주 한 잔 주세요",
+      "category": "음료",
+      "tags": ["음식", "술", "음료"],
+      "relatedPhraseIds": ["phrase001", "phrase002", "phrase003"]
+    },
+    {
+      "id": "vocab003",
+      "jp": "乾杯",
+      "kr": "건배",
+      "romaji": "kanpai",
+      "example": "皆さん、乾杯！",
+      "exampleKr": "여러분, 건배!",
+      "category": "표현",
+      "tags": ["인사", "술", "표현"],
+      "relatedPhraseIds": ["phrase002"]
+    },
+    {
+      "id": "vocab004",
+      "jp": "日本酒",
+      "kr": "일본 술(사케)",
+      "romaji": "nihonshu",
+      "example": "日本酒を温めてください",
+      "exampleKr": "일본 술을 따뜻하게 해주세요",
+      "category": "음료",
+      "tags": ["음식", "술", "음료"],
+      "relatedPhraseIds": ["phrase003"]
+    },
+    {
+      "id": "vocab005",
+      "jp": "お会計",
+      "kr": "계산",
+      "romaji": "okaikei",
+      "example": "お会計をお願いします",
+      "exampleKr": "계산 부탁드립니다",
+      "category": "표현",
+      "tags": ["식당", "계산", "표현"],
+      "relatedPhraseIds": ["phrase004"]
+    },
+    {
+      "id": "vocab006",
+      "jp": "美味しい",
+      "kr": "맛있다",
+      "romaji": "oishii",
+      "example": "この料理はとても美味しいです",
+      "exampleKr": "이 요리는 매우 맛있습니다",
+      "category": "형용사",
+      "tags": ["음식", "칭찬", "형용사"],
+      "relatedPhraseIds": ["phrase005"]
+    },
+    {
+      "id": "vocab007",
+      "jp": "いくら",
+      "kr": "얼마",
+      "romaji": "ikura",
+      "example": "これはいくらですか？",
+      "exampleKr": "이것은 얼마인가요?",
+      "category": "질문",
+      "tags": ["쇼핑", "가격", "질문"],
+      "relatedPhraseIds": ["phrase006", "phrase007"]
+    },
+    {
+      "id": "vocab008",
+      "jp": "安い",
+      "kr": "싸다",
+      "romaji": "yasui",
+      "example": "このお店は安いです",
+      "exampleKr": "이 가게는 쌉니다",
+      "category": "형용사",
+      "tags": ["쇼핑", "가격", "형용사"],
+      "relatedPhraseIds": ["phrase006", "phrase008"]
+    },
+    {
+      "id": "vocab009",
+      "jp": "朝食",
+      "kr": "아침 식사",
+      "romaji": "choushoku",
+      "example": "朝食は何時からですか？",
+      "exampleKr": "아침 식사는 몇 시부터인가요?",
+      "category": "음식",
+      "tags": ["식사", "시간", "음식"],
+      "relatedPhraseIds": ["phrase009"]
+    },
+    {
+      "id": "vocab010",
+      "jp": "いつから",
+      "kr": "언제부터",
+      "romaji": "itsukara",
+      "example": "営業はいつからですか？",
+      "exampleKr": "영업은 언제부터인가요?",
+      "category": "질문",
+      "tags": ["시간", "질문", "표현"],
+      "relatedPhraseIds": ["phrase009", "phrase014"]
+    },
+    {
+      "id": "vocab011",
+      "jp": "魚料理",
+      "kr": "생선 요리",
+      "romaji": "sakana ryouri",
+      "example": "この店は魚料理が有名です",
+      "exampleKr": "이 가게는 생선 요리가 유명합니다",
+      "category": "음식",
+      "tags": ["음식", "식당", "해산물"],
+      "relatedPhraseIds": ["phrase010"]
+    },
+    {
+      "id": "vocab012",
+      "jp": "おすすめ",
+      "kr": "추천",
+      "romaji": "osusume",
+      "example": "おすすめの料理は何ですか？",
+      "exampleKr": "추천 요리는 무엇인가요?",
+      "category": "표현",
+      "tags": ["음식", "질문", "표현"],
+      "relatedPhraseIds": ["phrase001", "phrase010"]
+    },
+    {
+      "id": "vocab013",
+      "jp": "写真",
+      "kr": "사진",
+      "romaji": "shashin",
+      "example": "写真を撮ってもいいですか？",
+      "exampleKr": "사진을 찍어도 될까요?",
+      "category": "명사",
+      "tags": ["관광", "사진", "명사"],
+      "relatedPhraseIds": ["phrase011"]
+    },
+    {
+      "id": "vocab014",
+      "jp": "撮る",
+      "kr": "찍다",
+      "romaji": "toru",
+      "example": "写真を撮ってください",
+      "exampleKr": "사진을 찍어주세요",
+      "category": "동사",
+      "tags": ["관광", "사진", "동사"],
+      "relatedPhraseIds": ["phrase011"]
+    },
+    {
+      "id": "vocab015",
+      "jp": "歴史",
+      "kr": "역사",
+      "romaji": "rekishi",
+      "example": "日本の歴史について教えてください",
+      "exampleKr": "일본의 역사에 대해 알려주세요",
+      "category": "명사",
+      "tags": ["관광", "역사", "명사"],
+      "relatedPhraseIds": ["phrase012"]
+    },
+    {
+      "id": "vocab016",
+      "jp": "教える",
+      "kr": "가르치다, 알려주다",
+      "romaji": "oshieru",
+      "example": "道を教えてください",
+      "exampleKr": "길을 알려주세요",
+      "category": "동사",
+      "tags": ["질문", "정보", "동사"],
+      "relatedPhraseIds": ["phrase012", "phrase015"]
+    },
+    {
+      "id": "vocab017",
+      "jp": "入場料",
+      "kr": "입장료",
+      "romaji": "nyuujoury",
+      "example": "入場料は大人1000円です",
+      "exampleKr": "입장료는 성인 1000엔입니다",
+      "category": "명사",
+      "tags": ["관광", "가격", "명사"],
+      "relatedPhraseIds": ["phrase013"]
+    },
+    {
+      "id": "vocab018",
+      "jp": "無料",
+      "kr": "무료",
+      "romaji": "muryou",
+      "example": "子供は入場無料です",
+      "exampleKr": "어린이는 입장 무료입니다",
+      "category": "명사",
+      "tags": ["관광", "가격", "명사"],
+      "relatedPhraseIds": ["phrase013"]
+    },
+    {
+      "id": "vocab019",
+      "jp": "閉館",
+      "kr": "폐관",
+      "romaji": "heikan",
+      "example": "閉館時間は午後5時です",
+      "exampleKr": "폐관 시간은 오후 5시입니다",
+      "category": "명사",
+      "tags": ["관광", "시간", "명사"],
+      "relatedPhraseIds": ["phrase014"]
+    },
+    {
+      "id": "vocab020",
+      "jp": "何時",
+      "kr": "몇 시",
+      "romaji": "nanji",
+      "example": "今何時ですか？",
+      "exampleKr": "지금 몇 시인가요?",
+      "category": "질문",
+      "tags": ["시간", "질문", "표현"],
+      "relatedPhraseIds": ["phrase014"]
+    }
+  ]
+}
