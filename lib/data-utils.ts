@@ -1,3 +1,8 @@
+import locationsData from "../data/locations.json"
+import phrasesData from "../data/phrases.json"
+import vocabularyData from "../data/vocabulary.json"
+import charactersData from "../data/characters.json"
+
 // 데이터 타입 정의
 export interface Location {
   id: string
@@ -129,24 +134,7 @@ export const prefectureNameMap: Record<string, string> = {
 // 데이터 로드 함수 - 서버 사이드에서만 사용
 export async function getLocations(): Promise<Location[]> {
   try {
-    // 서버 사이드에서는 process.cwd()를 사용하여 파일 시스템에서 직접 읽기
-    if (typeof window === "undefined") {
-      const fs = await import("fs")
-      const path = await import("path")
-      const filePath = path.join(process.cwd(), "public/data/locations.json")
-      const fileContents = fs.readFileSync(filePath, "utf8")
-      const data = JSON.parse(fileContents)
-      return data.locations || []
-    } else {
-      // 클라이언트 사이드에서는 fetch 사용
-      const baseUrl = window.location.origin
-      const res = await fetch(`${baseUrl}/data/locations.json`)
-      if (!res.ok) {
-        throw new Error("Failed to fetch locations data")
-      }
-      const data = await res.json()
-      return data.locations || []
-    }
+    return locationsData.locations || []
   } catch (error) {
     console.error("Error loading locations:", error)
     return []
@@ -155,24 +143,7 @@ export async function getLocations(): Promise<Location[]> {
 
 export async function getPhrases(): Promise<Phrase[]> {
   try {
-    // 서버 사이드에서는 process.cwd()를 사용하여 파일 시스템에서 직접 읽기
-    if (typeof window === "undefined") {
-      const fs = await import("fs")
-      const path = await import("path")
-      const filePath = path.join(process.cwd(), "public/data/phrases.json")
-      const fileContents = fs.readFileSync(filePath, "utf8")
-      const data = JSON.parse(fileContents)
-      return data.phrases || []
-    } else {
-      // 클라이언트 사이드에서는 fetch 사용
-      const baseUrl = window.location.origin
-      const res = await fetch(`${baseUrl}/data/phrases.json`)
-      if (!res.ok) {
-        throw new Error("Failed to fetch phrases data")
-      }
-      const data = await res.json()
-      return data.phrases || []
-    }
+    return phrasesData.phrases || []
   } catch (error) {
     console.error("Error loading phrases:", error)
     return []
@@ -181,24 +152,7 @@ export async function getPhrases(): Promise<Phrase[]> {
 
 export async function getVocabulary(): Promise<Vocabulary[]> {
   try {
-    // 서버 사이드에서는 process.cwd()를 사용하여 파일 시스템에서 직접 읽기
-    if (typeof window === "undefined") {
-      const fs = await import("fs")
-      const path = await import("path")
-      const filePath = path.join(process.cwd(), "public/data/vocabulary.json")
-      const fileContents = fs.readFileSync(filePath, "utf8")
-      const data = JSON.parse(fileContents)
-      return data.vocabulary || []
-    } else {
-      // 클라이언트 사이드에서는 fetch 사용
-      const baseUrl = window.location.origin
-      const res = await fetch(`${baseUrl}/data/vocabulary.json`)
-      if (!res.ok) {
-        throw new Error("Failed to fetch vocabulary data")
-      }
-      const data = await res.json()
-      return data.vocabulary || []
-    }
+    return vocabularyData.vocabulary || []
   } catch (error) {
     console.error("Error loading vocabulary:", error)
     return []
@@ -207,24 +161,7 @@ export async function getVocabulary(): Promise<Vocabulary[]> {
 
 export async function getCharacters(): Promise<Character[]> {
   try {
-    // 서버 사이드에서는 process.cwd()를 사용하여 파일 시스템에서 직접 읽기
-    if (typeof window === "undefined") {
-      const fs = await import("fs")
-      const path = await import("path")
-      const filePath = path.join(process.cwd(), "public/data/characters.json")
-      const fileContents = fs.readFileSync(filePath, "utf8")
-      const data = JSON.parse(fileContents)
-      return data.characters || []
-    } else {
-      // 클라이언트 사이드에서는 fetch 사용
-      const baseUrl = window.location.origin
-      const res = await fetch(`${baseUrl}/data/characters.json`)
-      if (!res.ok) {
-        throw new Error("Failed to fetch characters data")
-      }
-      const data = await res.json()
-      return data.characters || []
-    }
+    return charactersData.characters || []
   } catch (error) {
     console.error("Error loading characters:", error)
     return []
