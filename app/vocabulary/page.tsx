@@ -1,3 +1,5 @@
+"use client"
+
 import type { Metadata } from "next"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"

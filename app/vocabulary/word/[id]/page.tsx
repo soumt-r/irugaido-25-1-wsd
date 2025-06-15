@@ -1,3 +1,5 @@
+"use client"
+
 import { getVocabularyById } from "@/lib/data-utils"
 import VocabularyDetail from "@/components/vocabulary-detail"
 import { Button } from "@/components/ui/button"
