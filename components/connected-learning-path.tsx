@@ -42,24 +42,50 @@ export default function ConnectedLearningPath() {
         </TabsList>
 
         <div className="relative">
-          <div
-            className={`absolute top-1/2 -translate-y-1/2 ${
-              activeTab === "place" ? "left-[16.7%]" : activeTab === "phrases" ? "left-[50%]" : "left-[83.3%]"
-            } -translate-x-1/2 transition-all duration-300 z-10`}
-          >
-            <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold">
-              {activeTab === "place" ? "1" : activeTab === "phrases" ? "2" : "3"}
+          {/* Glass-morphism Step Progress Indicator */}
+          <div className="absolute top-6 left-1/2 transform -translate-x-1/2 z-20">
+            <div className="flex items-center gap-4 px-6 py-3 rounded-full backdrop-blur-md bg-white/80 dark:bg-gray-900/80 border border-white/20 dark:border-gray-700/30 shadow-lg">
+              <div
+                className={`flex items-center justify-center w-8 h-8 rounded-full text-sm font-bold transition-all duration-300 ${
+                  activeTab === "place"
+                    ? "bg-primary text-primary-foreground shadow-lg scale-110"
+                    : "bg-white/60 dark:bg-gray-800/60 text-muted-foreground"
+                }`}
+              >
+                1
+              </div>
+              <div
+                className={`w-12 h-1 rounded-full transition-all duration-300 ${
+                  activeTab === "phrases" || activeTab === "vocabulary"
+                    ? "bg-primary shadow-sm"
+                    : "bg-gray-300/60 dark:bg-gray-600/60"
+                }`}
+              ></div>
+              <div
+                className={`flex items-center justify-center w-8 h-8 rounded-full text-sm font-bold transition-all duration-300 ${
+                  activeTab === "phrases"
+                    ? "bg-primary text-primary-foreground shadow-lg scale-110"
+                    : "bg-white/60 dark:bg-gray-800/60 text-muted-foreground"
+                }`}
+              >
+                2
+              </div>
+              <div
+                className={`w-12 h-1 rounded-full transition-all duration-300 ${
+                  activeTab === "vocabulary" ? "bg-primary shadow-sm" : "bg-gray-300/60 dark:bg-gray-600/60"
+                }`}
+              ></div>
+              <div
+                className={`flex items-center justify-center w-8 h-8 rounded-full text-sm font-bold transition-all duration-300 ${
+                  activeTab === "vocabulary"
+                    ? "bg-primary text-primary-foreground shadow-lg scale-110"
+                    : "bg-white/60 dark:bg-gray-800/60 text-muted-foreground"
+                }`}
+              >
+                3
+              </div>
             </div>
           </div>
-
-          <div className="absolute top-1/2 left-[16.7%] right-[16.7%] h-1 bg-muted">
-            <div
-              className={`h-full bg-primary transition-all duration-300 ${
-                activeTab === "place" ? "w-0" : activeTab === "phrases" ? "w-1/2" : "w-full"
-              }`}
-            ></div>
-          </div>
-
           <TabsContent value="place" className="mt-6">
             <Card>
               <CardContent className="p-0">
