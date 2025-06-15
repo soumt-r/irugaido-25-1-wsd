@@ -1,0 +1,161 @@
+{
+  "locations": [
+    {
+      "id": "loc001",
+      "name": "골든가이 - 신주쿠",
+      "nameJp": "ゴールデン街 - 新宿",
+      "description": "현지인들이 즐겨 찾는 작은 술집들이 모여있는 골목. 1950년대부터 이어져 온 이 지역은 200개가 넘는 작은 바와 이자카야가 밀집해 있으며, 각각의 가게는 독특한 테마와 분위기를 자랑합니다.",
+      "longDescription": "골든가이는 도쿄 신주쿠에 위치한 유명한 나이트라이프 지역으로, 좁은 골목길을 따라 수백 개의 작은 바와 술집이 밀집해 있습니다. 대부분의 가게는 10명 이하만 수용 가능한 아담한 크기로, 독특한 테마와 분위기를 자랑합니다. 1950년대부터 이어져 온 이 지역은 현지인들이 일과 후 휴식을 취하는 장소로 사랑받고 있으며, 관광객들에게는 진정한 도쿄의 밤문화를 경험할 수 있는 기회를 제공합니다.",
+      "image": "/placeholder.svg",
+      "imageQuery": "Golden Gai Shinjuku",
+      "gallery": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+      "region": "kanto",
+      "prefecture": "tokyo",
+      "address": "東京都新宿区歌舞伎町1丁目",
+      "addressKr": "도쿄도 신주쿠구 가부키초 1초메",
+      "hours": "대부분의 가게 19:00 - 05:00",
+      "phone": "+81-3-XXXX-XXXX",
+      "website": "https://example.com",
+      "rating": 4.5,
+      "tags": ["음식", "술집", "나이트라이프", "현지 문화"],
+      "isLocalRecommended": true,
+      "localExpert": {
+        "id": "expert001",
+        "name": "사토 유키"
+      },
+      "relatedPhraseIds": ["phrase001", "phrase002", "phrase003", "phrase004", "phrase005"],
+      "relatedVocabularyIds": ["vocab001", "vocab002", "vocab003", "vocab004"],
+      "tips": [
+        "대부분의 바는 작기 때문에 2-3명의 소규모 그룹으로 방문하는 것이 좋습니다.",
+        "일부 가게는 외국인에게 '시트 차지'(좌석 요금)를 부과할 수 있으니 미리 확인하세요.",
+        "주말에는 매우 붐비므로 평일 방문을 추천합니다.",
+        "현금을 준비하는 것이 좋습니다. 많은 가게에서 카드 결제를 지원하지 않습니다."
+      ],
+      "nearbyLocationIds": ["loc002", "loc003", "loc004"]
+    },
+    {
+      "id": "loc002",
+      "name": "츠케지 시장",
+      "nameJp": "築地市場",
+      "description": "도쿄의 유명한 수산 시장으로, 신선한 해산물과 다양한 일본 음식을 맛볼 수 있는 곳입니다.",
+      "longDescription": "츠케지 시장은 한때 세계 최대의 수산 시장이었으며, 현재는 외부 시장만 남아 있지만 여전히 많은 관광객들이 찾는 명소입니다. 신선한 해산물과 다양한 일본 음식을 맛볼 수 있으며, 특히 아침 식사로 스시를 즐기려는 사람들에게 인기가 있습니다.",
+      "image": "/placeholder.svg",
+      "imageQuery": "Tsukiji Market Tokyo",
+      "gallery": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+      "region": "kanto",
+      "prefecture": "tokyo",
+      "address": "東京都中央区築地4丁目",
+      "addressKr": "도쿄도 중앙구 츠케지 4초메",
+      "hours": "대부분의 가게 05:00 - 14:00",
+      "phone": "+81-3-XXXX-XXXX",
+      "website": "https://example.com",
+      "rating": 4.7,
+      "tags": ["음식", "시장", "해산물", "현지 문화"],
+      "isLocalRecommended": true,
+      "localExpert": {
+        "id": "expert002",
+        "name": "타나카 히로시"
+      },
+      "relatedPhraseIds": ["phrase006", "phrase007", "phrase008", "phrase009", "phrase010"],
+      "relatedVocabularyIds": ["vocab005", "vocab006", "vocab007", "vocab008"],
+      "tips": [
+        "아침 일찍 방문하면 더 신선한 해산물을 맛볼 수 있습니다.",
+        "일부 레스토랑은 현금만 받으니 미리 준비하세요.",
+        "인기 있는 가게는 줄이 길 수 있으니 시간 여유를 두고 방문하세요.",
+        "시장 내부에서는 사진 촬영이 제한될 수 있으니 주의하세요."
+      ],
+      "nearbyLocationIds": ["loc001", "loc003", "loc005"]
+    },
+    {
+      "id": "loc003",
+      "name": "아라시야마",
+      "nameJp": "嵐山",
+      "description": "교토의 서쪽에 위치한 아름다운 자연 명소로, 대나무 숲과 원숭이 공원으로 유명합니다.",
+      "longDescription": "아라시야마는 교토의 서쪽에 위치한 아름다운 자연 명소로, 특히 봄의 벚꽃과 가을의 단풍으로 유명합니다. 대나무 숲 산책로, 원숭이 공원, 도게츠쿄 다리 등 다양한 볼거리가 있으며, 전통적인 일본 정원과 사찰도 방문할 수 있습니다.",
+      "image": "/placeholder.svg",
+      "imageQuery": "Arashiyama Kyoto",
+      "gallery": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+      "region": "kinki",
+      "prefecture": "kyoto",
+      "address": "京都府京都市右京区嵐山",
+      "addressKr": "교토부 교토시 우쿄구 아라시야마",
+      "hours": "대부분의 명소 09:00 - 17:00",
+      "phone": "+81-75-XXXX-XXXX",
+      "website": "https://example.com",
+      "rating": 4.8,
+      "tags": ["자연", "문화", "사찰", "대나무 숲"],
+      "isLocalRecommended": false,
+      "relatedPhraseIds": ["phrase011", "phrase012", "phrase013", "phrase014", "phrase015"],
+      "relatedVocabularyIds": ["vocab009", "vocab010", "vocab011", "vocab012"],
+      "tips": [
+        "아침 일찍 방문하면 대나무 숲을 한적하게 즐길 수 있습니다.",
+        "원숭이 공원 방문 시 음식물을 가지고 가지 마세요.",
+        "가을 단풍 시즌에는 특히 혼잡하니 미리 계획을 세우세요.",
+        "교토역에서 JR 사가-아라시야마 역까지 기차로 약 15분 소요됩니다."
+      ],
+      "nearbyLocationIds": ["loc008", "loc009", "loc010"]
+    },
+    {
+      "id": "loc004",
+      "name": "메이지 신궁",
+      "nameJp": "明治神宮",
+      "description": "도쿄 중심부에 위치한 신토 신사로, 메이지 천황과 쇼켄 황후를 기리기 위해 지어졌습니다.",
+      "longDescription": "메이지 신궁은 도쿄 중심부에 위치한 신토 신사로, 메이지 천황과 쇼켄 황후를 기리기 위해 1920년에 완공되었습니다. 약 70헥타르의 울창한 숲으로 둘러싸인 이 신사는 도쿄의 번화한 도심 속 평화로운 휴식처를 제공합니다. 매년 새해 첫날에는 수백만 명의 참배객이 방문하는 일본의 중요한 문화 명소입니다.",
+      "image": "/placeholder.svg",
+      "imageQuery": "Meiji Shrine Tokyo",
+      "gallery": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+      "region": "kanto",
+      "prefecture": "tokyo",
+      "address": "東京都渋谷区代々木神園町1-1",
+      "addressKr": "도쿄도 시부야구 요요기 진엔초 1-1",
+      "hours": "일출부터 일몰까지",
+      "phone": "+81-3-XXXX-XXXX",
+      "website": "https://example.com",
+      "rating": 4.6,
+      "tags": ["문화", "신사", "역사", "자연"],
+      "isLocalRecommended": false,
+      "relatedPhraseIds": ["phrase016", "phrase017", "phrase018", "phrase019", "phrase020"],
+      "relatedVocabularyIds": ["vocab013", "vocab014", "vocab015", "vocab016"],
+      "tips": [
+        "주말에는 전통 결혼식을 볼 수 있는 기회가 있습니다.",
+        "하라주쿠역이나 요요기역에서 도보로 접근 가능합니다.",
+        "신사 내부는 조용하게 참배하는 공간이므로 정숙을 유지해주세요.",
+        "입장료는 무료이지만 보물관은 별도 요금이 있습니다."
+      ],
+      "nearbyLocationIds": ["loc001", "loc007", "loc011"]
+    },
+    {
+      "id": "loc005",
+      "name": "도톤보리",
+      "nameJp": "道頓堀",
+      "description": "오사카의 번화가로, 화려한 네온사인과 맛집으로 유명한 관광 명소입니다.",
+      "longDescription": "도톤보리는 오사카의 미나미 지역에 위치한 번화가로, 화려한 네온사인과 대형 광고판으로 유명합니다. 특히 글리코 달리기 사람 간판은 오사카의 상징적인 랜드마크입니다. 다양한 오사카 음식을 맛볼 수 있는 레스토랑과 포장마차가 즐비하며, 쇼핑과 엔터테인먼트를 즐길 수 있는 곳입니다.",
+      "image": "/placeholder.svg",
+      "imageQuery": "Dotonbori Osaka",
+      "gallery": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+      "region": "kinki",
+      "prefecture": "osaka",
+      "address": "大阪府大阪市中央区道頓堀",
+      "addressKr": "오사카부 오사카시 중앙구 도톤보리",
+      "hours": "24시간 (상점별 영업시간 상이)",
+      "phone": "+81-6-XXXX-XXXX",
+      "website": "https://example.com",
+      "rating": 4.7,
+      "tags": ["음식", "쇼핑", "나이트라이프", "관광"],
+      "isLocalRecommended": true,
+      "localExpert": {
+        "id": "expert003",
+        "name": "야마모토 켄지"
+      },
+      "relatedPhraseIds": ["phrase021", "phrase022", "phrase023", "phrase024", "phrase025"],
+      "relatedVocabularyIds": ["vocab017", "vocab018", "vocab019", "vocab020"],
+      "tips": [
+        "글리코 간판 앞은 사진 촬영 명소이니 미리 준비하세요.",
+        "타코야키, 오코노미야키 등 오사카 대표 음식을 꼭 맛보세요.",
+        "저녁에 방문하면 화려한 네온사인을 즐길 수 있습니다.",
+        "주변의 신사이바시 쇼핑 거리도 함께 방문해보세요."
+      ],
+      "nearbyLocationIds": ["loc012", "loc013", "loc014"]
+    }
+  ]
+}

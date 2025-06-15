@@ -1,0 +1,444 @@
+{
+  "characters": [
+    {
+      "id": "char001",
+      "character": "あ",
+      "romaji": "a",
+      "type": "hiragana",
+      "examples": ["あり (개미)", "あめ (비)"],
+      "relatedVocabularyIds": ["vocab001", "vocab002"]
+    },
+    {
+      "id": "char002",
+      "character": "い",
+      "romaji": "i",
+      "type": "hiragana",
+      "examples": ["いぬ (개)", "いし (돌)"],
+      "relatedVocabularyIds": ["vocab003", "vocab004"]
+    },
+    {
+      "id": "char003",
+      "character": "う",
+      "romaji": "u",
+      "type": "hiragana",
+      "examples": ["うみ (바다)", "うた (노래)"],
+      "relatedVocabularyIds": ["vocab005", "vocab006"]
+    },
+    {
+      "id": "char004",
+      "character": "え",
+      "romaji": "e",
+      "type": "hiragana",
+      "examples": ["えき (역)", "えんぴつ (연필)"],
+      "relatedVocabularyIds": ["vocab007", "vocab008"]
+    },
+    {
+      "id": "char005",
+      "character": "お",
+      "romaji": "o",
+      "type": "hiragana",
+      "examples": ["おかし (과자)", "おんがく (음악)"],
+      "relatedVocabularyIds": ["vocab009", "vocab010"]
+    },
+    {
+      "id": "char006",
+      "character": "か",
+      "romaji": "ka",
+      "type": "hiragana",
+      "examples": ["かばん (가방)", "かぜ (바람)"],
+      "relatedVocabularyIds": ["vocab011", "vocab012"]
+    },
+    {
+      "id": "char007",
+      "character": "き",
+      "romaji": "ki",
+      "type": "hiragana",
+      "examples": ["きって (우표)", "きもの (기모노 )"],
+      "relatedVocabularyIds": ["vocab013", "vocab014"]
+    },
+    {
+      "id": "char008",
+      "character": "く",
+      "romaji": "ku",
+      "type": "hiragana",
+      "examples": ["くつ (신발)", "くも (구름)"],
+      "relatedVocabularyIds": ["vocab015", "vocab016"]
+    },
+    {
+      "id": "char009",
+      "character": "け",
+      "romaji": "ke",
+      "type": "hiragana",
+      "examples": ["けいたい (휴대폰)", "けしゴム (지우개)"],
+      "relatedVocabularyIds": ["vocab017", "vocab018"]
+    },
+    {
+      "id": "char010",
+      "character": "こ",
+      "romaji": "ko",
+      "type": "hiragana",
+      "examples": ["こども (아이)", "こえ (목소리)"],
+      "relatedVocabularyIds": ["vocab019", "vocab020"]
+    },
+    {
+      "id": "char011",
+      "character": "さ",
+      "romaji": "sa",
+      "type": "hiragana",
+      "examples": ["さくら (벚꽃)", "さんぽ (산책)"],
+      "relatedVocabularyIds": ["vocab019", "vocab020"]
+    },
+    {
+      "id": "char012",
+      "character": "し",
+      "romaji": "shi",
+      "type": "hiragana",
+      "examples": ["しろ (성)", "しんぶん (신문)"],
+      "relatedVocabularyIds": ["vocab021", "vocab022"]
+    },
+    {
+      "id": "char013",
+      "character": "す",
+      "romaji": "su",
+      "type": "hiragana",
+      "examples": ["すいか (수박)", "すし (초밥)"],
+      "relatedVocabularyIds": ["vocab023", "vocab024"]
+    },
+    {
+      "id": "char014",
+      "character": "せ",
+      "romaji": "se",
+      "type": "hiragana",
+      "examples": ["せんせい (선생님)", "せかい (세계)"],
+      "relatedVocabularyIds": ["vocab025", "vocab026"]
+    },
+    {
+      "id": "char015",
+      "character": "そ",
+      "romaji": "so",
+      "type": "hiragana",
+      "examples": ["そら (하늘)", "そば (소바)"],
+      "relatedVocabularyIds": ["vocab027", "vocab028"]
+    },
+    {
+      "id": "char016",
+      "character": "た",
+      "romaji": "ta",
+      "type": "hiragana",
+      "examples": ["たまご (달걀)", "たてもの (건물)"],
+      "relatedVocabularyIds": ["vocab029", "vocab030"]
+    },
+    {
+      "id": "char017",
+      "character": "ち",
+      "romaji": "chi",
+      "type": "hiragana",
+      "examples": ["ちず (지도)", "ちかてつ (지하철)"],
+      "relatedVocabularyIds": ["vocab031", "vocab032"]
+    },
+    {
+      "id": "char018",
+      "character": "つ",
+      "romaji": "tsu",
+      "type": "hiragana",
+      "examples": ["つき (달)", "つくえ (책상)"],
+      "relatedVocabularyIds": ["vocab033", "vocab034"]
+    },
+    {
+      "id": "char019",
+      "character": "て",
+      "romaji": "te",
+      "type": "hiragana",
+      "examples": ["てがみ (편지)", "てんき (날씨)"],
+      "relatedVocabularyIds": ["vocab035", "vocab036"]
+    },
+    {
+      "id": "char020",
+      "character": "と",
+      "romaji": "to",
+      "type": "hiragana",
+      "examples": ["とり (새)", "とけい (시계)"],
+      "relatedVocabularyIds": ["vocab037", "vocab038"]
+    },
+    {
+      "id": "char021",
+      "character": "な",
+      "romaji": "na",
+      "type": "hiragana",
+      "examples": ["なつ (여름)", "なまえ (이름)"],
+      "relatedVocabularyIds": ["vocab039", "vocab040"]
+    },
+    {
+      "id": "char022",
+      "character": "に",
+      "romaji": "ni",
+      "type": "hiragana",
+      "examples": ["にく (고기)", "にほん (일본)"],
+      "relatedVocabularyIds": ["vocab041", "vocab042"]
+    },
+    {
+      "id": "char023",
+      "character": "ぬ",
+      "romaji": "nu",
+      "type": "hiragana",
+      "examples": ["ぬの (천)", "ぬいぐるみ (인형)"],
+      "relatedVocabularyIds": ["vocab043", "vocab044"]
+    },
+    {
+      "id": "char024",
+      "character": "ね",
+      "romaji": "ne",
+      "type": "hiragana",
+      "examples": ["ねこ (고양이)", "ねつ (열)"],
+      "relatedVocabularyIds": ["vocab045", "vocab046"]
+    },
+    {
+      "id": "char025",
+      "character": "の",
+      "romaji": "no",
+      "type": "hiragana",
+      "examples": ["のりもの (탈것)", "のうぎょう (농업)"],
+      "relatedVocabularyIds": ["vocab047", "vocab048"]
+    },
+    {
+      "id": "char026",
+      "character": "は",
+      "romaji": "ha",
+      "type": "hiragana",
+      "examples": ["はな (꽃)", "はし (젓가락)"],
+      "relatedVocabularyIds": ["vocab049", "vocab050"]
+    },
+    {
+      "id": "char027",
+      "character": "ひ",
+      "romaji": "hi",
+      "type": "hiragana",
+      "examples": ["ひこうき (비행기)", "ひと (사람)"],
+      "relatedVocabularyIds": ["vocab051", "vocab052"]
+    },
+    {
+      "id": "char028",
+      "character": "ふ",
+      "romaji": "fu",
+      "type": "hiragana",
+      "examples": ["ふね (배)", "ふゆ (겨울)"],
+      "relatedVocabularyIds": ["vocab053", "vocab054"]
+    },
+    {
+      "id": "char029",
+      "character": "へ",
+      "romaji": "he",
+      "type": "hiragana",
+      "examples": ["へや (방)", "へんじ (대답)"],
+      "relatedVocabularyIds": ["vocab055", "vocab056"]
+    },
+    {
+      "id": "char030",
+      "character": "ほ",
+      "romaji": "ho",
+      "type": "hiragana",
+      "examples": ["ほし (별)", "ほん (책)"],
+      "relatedVocabularyIds": ["vocab057", "vocab058"]
+    },
+    {
+      "id": "char031",
+      "character": "ま",
+      "romaji": "ma",
+      "type": "hiragana",
+      "examples": ["まち (도시)", "まど (창문)"],
+      "relatedVocabularyIds": ["vocab059", "vocab060"]
+    },
+    {
+      "id": "char032",
+      "character": "み",
+      "romaji": "mi",
+      "type": "hiragana",
+      "examples": ["みず (물)", "みかん (귤)"],
+      "relatedVocabularyIds": ["vocab061", "vocab062"]
+    },
+    {
+      "id": "char033",
+      "character": "む",
+      "romaji": "mu",
+      "type": "hiragana",
+      "examples": ["むし (벌레)", "むらさき (보라색)"],
+      "relatedVocabularyIds": ["vocab063", "vocab064"]
+    },
+    {
+      "id": "char034",
+      "character": "め",
+      "romaji": "me",
+      "type": "hiragana",
+      "examples": ["めがね (안경)", "めん (면)"],
+      "relatedVocabularyIds": ["vocab065", "vocab066"]
+    },
+    {
+      "id": "char035",
+      "character": "も",
+      "romaji": "mo",
+      "type": "hiragana",
+      "examples": ["もり (숲)", "もも (복숭아)"],
+      "relatedVocabularyIds": ["vocab067", "vocab068"]
+    },
+    {
+      "id": "char036",
+      "character": "や",
+      "romaji": "ya",
+      "type": "hiragana",
+      "examples": ["やさい (야채)", "", ""],
+      "relatedVocabularyIds": ["vocab069", "vocab070"]
+    },
+    {
+      "id": "char047",
+      "character": "-",
+      "romaji": "-",
+      "type": "hiragana",
+      "examples": ["-"],
+      "relatedVocabularyIds": []
+    },
+    {
+      "id": "char037",
+      "character": "ゆ",
+      "romaji": "yu",
+      "type": "hiragana",
+      "examples": ["ゆき (눈)", "ゆび (손가락)"],
+      "relatedVocabularyIds": ["vocab071", "vocab072"]
+    },
+    {
+      "id": "char048",
+      "character": "-",
+      "romaji": "-",
+      "type": "hiragana",
+      "examples": ["-"],
+      "relatedVocabularyIds": []  
+    },
+    {
+      "id": "char038",
+      "character": "よ",
+      "romaji": "yo",
+      "type": "hiragana",
+      "examples": ["よる (밤)", "よてい (예정)"],
+      "relatedVocabularyIds": ["vocab073", "vocab074"]
+    },
+    {
+      "id": "char039",
+      "character": "ら",
+      "romaji": "ra",
+      "type": "hiragana",
+      "examples": ["らいねん (내년)", "", ""],
+      "relatedVocabularyIds": ["vocab075", "vocab076"]
+    },
+    {
+      "id": "char040",
+      "character": "り",
+      "romaji": "ri",
+      "type": "hiragana",
+      "examples": ["りんご (사과)", "", ""],
+      "relatedVocabularyIds": ["vocab077", "vocab078"]
+    },
+    {
+      "id": "char041",
+      "character": "る",
+      "romaji": "ru",
+      "type": "hiragana",
+      "examples": ["るす (부재중)", "", ""],
+      "relatedVocabularyIds": ["vocab079", "vocab080"]
+    },
+    {
+      "id": "char042",
+      "character": "れ",
+      "romaji": "re",
+      "type": "hiragana",
+      "examples": ["れいぞうこ (냉장고)", "", ""],
+      "relatedVocabularyIds": ["vocab079", "vocab080"]
+    },
+    {
+      "id": "char043",
+      "character": "ろ",
+      "romaji": "ro",
+      "type": "hiragana",
+      "examples": ["ろうそく (촛불)", "", ""],
+      "relatedVocabularyIds": ["vocab081", "vocab082"]
+    },
+    {
+      "id": "char044",
+      "character": "わ",
+      "romaji": "wa",
+      "type": "hiragana",
+      "examples": ["わたし (나)", "", ""],
+      "relatedVocabularyIds": ["vocab083", "vocab084"]
+    },
+    {
+      "id": "char049",
+      "character": "-",
+      "romaji": "-",
+      "type": "hiragana",
+      "examples": ["-"],
+      "relatedVocabularyIds": []
+    },
+    {
+      "id": "char045",
+      "character": "を",
+      "romaji": "wo",
+      "type": "hiragana",
+      "examples": ["を (조사)", "", ""],
+      "relatedVocabularyIds": []
+    },
+    {
+      "id": "char050",
+      "character": "-",
+      "romaji": "-",
+      "type": "hiragana",
+      "examples": ["-"],
+      "relatedVocabularyIds": []
+    },
+    {
+      "id": "char046",
+      "character": "ん",
+      "romaji": "n",
+      "type": "hiragana",
+      "examples": ["ん (조사)", "", ""],
+      "relatedVocabularyIds": []
+    },
+    {
+      "id": "char051",
+      "character": "ア",
+      "romaji": "a",
+      "type": "katakana",
+      "examples": ["アイス (아이스크림)", "アメリカ (미국)"],
+      "relatedVocabularyIds": ["vocab001", "vocab002"]
+    },
+    {
+      "id": "char052",
+      "character": "イ",
+      "romaji": "i",
+      "type": "katakana",
+      "examples": ["イタリア (이탈리아)", "インド (인도)"],
+      "relatedVocabularyIds": ["vocab003", "vocab004"]
+    },
+    {
+      "id": "char053",
+      "character": "ウ",
+      "romaji": "u",
+      "type": "katakana",
+      "examples": ["ウール (울)", "ウイルス (바이러스)"],
+      "relatedVocabularyIds": ["vocab005", "vocab006"]
+    },
+    {
+      "id": "char054",
+      "character": "エ",
+      "romaji": "e",
+      "type": "katakana",
+      "examples": ["エレベーター (엘리베이터)", "エアコン (에어컨)"],
+      "relatedVocabularyIds": ["vocab007", "vocab008"]
+    },
+    {
+      "id": "char055",
+      "character": "オ",
+      "romaji": "o",
+      "type": "katakana",
+      "examples": ["オレンジ (오렌지)", "オーストラリア (호주)"],
+      "relatedVocabularyIds": ["vocab009", "vocab010"]
+    }
+  ]
+}
