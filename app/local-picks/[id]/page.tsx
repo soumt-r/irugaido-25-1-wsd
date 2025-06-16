@@ -58,7 +58,7 @@ export default async function LocationDetailPage({ params }: { params: { id: str
     <main className="flex min-h-screen flex-col">
       <div className="relative h-[50vh] min-h-[400px] w-full overflow-hidden">
         <Image
-          src={`/placeholder.svg?height=800&width=1200&query=${location.imageQuery || location.name}`}
+          src={location.image}
           alt={location.name}
           fill
           className="object-cover"
