@@ -239,7 +239,7 @@ async function LocationCard({ location }: LocationCardProps) {
     <Card className="overflow-hidden group card-hover border-gray-100 dark:border-gray-800">
       <div className="relative h-48">
         <Image
-          src={`/placeholder.svg?height=400&width=600&query=${location.imageQuery || location.image || location.name}`}
+          src={location.image}
           alt={location.name}
           fill
           className="object-cover transition-transform duration-500 group-hover:scale-110"
